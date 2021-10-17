@@ -1,7 +1,6 @@
-import NavigationSidebar from "../NavigationSideBar";
+import NavigationSidebar from "../NavigationSideBar/index.js";
 import ExploreComponent from "./ExploreComponent.js";
-import WhoToFollowList from "../WhoToFollowList";
-import PostSummaryList from "../PostSummaryList";
+import WhoToFollowList from "../WhoToFollowList/index.js";
 
 // ${ExploreComponent()}
 // <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
