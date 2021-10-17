@@ -1,5 +1,5 @@
-import PostSummaryListItem from "./PostSummaryListItems.js";
-import posts from "./posts.js";
+import PostSummaryListItem from "../PostSummaryListItems.js";
+import posts from "../posts.js";
 
 const PostSummaryList = () => {
     return(`
