@@ -35,7 +35,7 @@ const NavigationSidebar = (
                         <i className="fa fa-bell"></i>
                       </span>
               </a>
-              <a className="list-group-item">
+              <a className="list-group-item" href="../../home.html">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-envelope"></i> Messages
                       </span>
@@ -47,11 +47,11 @@ const NavigationSidebar = (
                       <span className="d-none d-xl-block">
                         <i className="fa fa-bookmark"></i> Bookmarks
                       </span>
-                <span className="d-block d-xl-none">
+                <span className="d-block d-xl-none" href="../../home.html">
                         <i className="fa fa-bookmark"></i>
                       </span>
               </a>
-              <a className="list-group-item">
+              <a className="list-group-item" href="../../home.html">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-list"></i> Lists
                       </span>
@@ -67,7 +67,7 @@ const NavigationSidebar = (
                         <i className="fa fa-user"></i>
                       </span>
               </a>
-              <a className="list-group-item">
+              <a className="list-group-item" href="../../home.html">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-ellipsis-h"></i> More
                       </span>
