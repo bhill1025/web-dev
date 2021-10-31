@@ -1,14 +1,9 @@
 import React from "react";
-import NavigationSidebar from "./NavigationSideBar";
-import WhoToFollowList from "./WhoToFollowList";
+import ExploreScreen from "./ExploreScreen/ExploreScreen";
 import "./ExploreScreen/explore.css"
 const Build = () => {
     return(
-        <>
-            {/*<NavigationSidebar active="home"/>*/}
-            <br/>
-            <WhoToFollowList/>
-        </>
+        <ExploreScreen/>
     )
 };
 export default Build;

@@ -1,26 +1,40 @@
-const PostSummaryListItem = (post) => {
+import React from "react";
 
-    return(`
-        <li class="list-group-item">
-            <div class="row">
-              <div class="col-10">
-                <span class="wd-suggested-title-2">${post.topic}</span>
-                <div class="wd-suggested-body wd-white-span">
-                  <span>ReactJS <i class="fa fa-check-circle"></i></span><span class="wd-suggested-title-2">
-                    <span class="wd-suggested-title-2"> - ${post.time}</span>
+const PostSummaryListItem = (
+    {
+        post = {
+            "topic": "Web Development",
+            "userName": "ReactJS",
+            "time": "2h",
+            "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+            "image": "../../../images/react-blue.png"
+        }
+    }
+) => {
+
+    return(
+        <>
+            <li className="list-group-item">
+                <div className="row">
+                    <div className="col-10">
+                        <span className="wd-suggested-title-2">{post.topic}</span>
+                        <div className="wd-suggested-body wd-white-span">
+                            <span>ReactJS <i className="fa fa-check-circle"></i></span><span className="wd-suggested-title-2">
+                    <span className="wd-suggested-title-2"> - {post.time}</span>
                   </span><br/>
-                  <p class="wd-no-margin">
-                    ${post.title}
-                  </p>
+                            <p className="wd-no-margin">
+                                {post.title}
+                            </p>
+                        </div>
+                        <span className="wd-suggested-title-2">{post.tweets}</span>
+                    </div>
+                    <div className="col-2">
+                        <img src={post.image} className="wd-round-square-img" alt="..."/>
+                    </div>
                 </div>
-                <span class="wd-suggested-title-2">${post.tweets}</span>
-              </div>
-              <div class="col-2">
-                <img src=${post.image} class="wd-round-square-img" alt="...">
-              </div>
-            </div>
-          </li>
-    `);
+            </li>
+        </>
+    );
 
 }
 export default PostSummaryListItem;

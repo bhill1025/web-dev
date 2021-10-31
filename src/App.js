@@ -6,8 +6,10 @@ import './vendors/fontawesome/css/all.css';
 import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a6/Practice";
 import Build from "./components/a6/Build";
+import {Link} from "react-router-dom";
 
 import {BrowserRouter, Route} from "react-router-dom";
+import React from "react";
 
 function App() {
   return (
@@ -21,6 +23,22 @@ function App() {
               </Route>
               <Route path="/a6/build" exact={true}>
                   <Build/>
+              </Route>
+              <Route path="/a6/others" exact={true}>
+                  <Link to="/">
+                      Back
+                  </Link>
+                  <h1>WebDev - Non-React Assignments</h1>
+                  <ul>
+                      <li><a href="a3/practice/css/index.html">A3 - CSS Index</a></li>
+                      <li><a href="a3/twitter/navigation.html">A3 - Twitter clone</a></li>
+                      <br/>
+                      <li><a href="a4/practice/bootstrap/index.html">A4 - Bootstrap Index</a></li>
+                      <li><a href="a4/twitter/navigation.html">A4 - Twitter clone</a></li>
+                      <br/>
+                      <li><a href="a5/practice/js/index.html">A5 - JS Index</a></li>
+                      <li><a href="a5/twitter/navigation.html">A5 - Twitter clone</a></li>
+                  </ul>
               </Route>
           </div>
       </BrowserRouter>
