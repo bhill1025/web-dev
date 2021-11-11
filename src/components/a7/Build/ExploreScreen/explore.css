@@ -1,0 +1,289 @@
+.wd-touch-top {
+    margin-top: 0;
+    padding: 0;
+}
+
+.wd-search-bar-rounded {
+    border-radius: 50px;
+    background-color : rgb(32, 36, 40);
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    color: white;
+    outline: none;
+    padding-left: 30px;
+    width: 60%;
+}
+
+.wd-main-image {
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wd-circle-img {
+  width : 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.wd-twitter-button {
+  border-radius: 20px;
+  width: 100%;
+  min-width: 65px;
+}
+
+.wd-background {
+  background-color : black
+}
+
+.wd-gear {
+  position: absolute;
+  right: 16px;
+}
+
+.wd-left-margin {
+  padding-left: 16px !important;
+}
+
+.wd-top-links {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.wd-top-links a{
+  color: rgb(110, 118, 125);
+  font-size: 15px;
+  padding: 16px;
+  text-decoration: none;
+  border-top: 3px;
+}
+
+.wd-for-you {
+  color:rgb(29,161,242) !important;
+  border-bottom: 3px solid;
+  padding-left: 0px !important;
+  padding-bottom: 13px !important;
+  border-color: rgb(29,161,242)
+}
+
+.wd-top-box {
+  padding-top: 5px;
+}
+
+.wd-thick-bottom {
+  border-bottom-width: 5px;
+}
+
+.wd-border {
+  border-style: solid;
+  border-top: none;
+  border-color: rgb(47, 51, 54);
+  border-width: 1px;
+}
+
+.wd-top-spacer {
+  border-bottom-style: solid;
+  border-color: rgb(32, 36, 40);
+  border-bottom-width: 16px;
+}
+
+.wd-ellipses {
+  position: absolute;
+  right: 12px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+
+.wd-suggested span {
+  padding: 5px 0px, 5px, 0px;
+  margin-bottom: 5px;
+  line-height:20px;
+}
+
+.wd-suggested {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  overflow: hidden;
+}
+
+.wd-caption {
+    position: absolute;
+    top: 82%;
+    left: 2%;
+    width: 100%;
+    color: white;
+}
+
+.wd-suggested-title {
+  color: rgb(110, 118, 125);
+  font-size: 13px;
+}
+
+.wd-suggested-title-2 {
+  color: rgb(110, 118, 125) !important;
+  font-weight: normal;
+}
+
+.wd-no-margin {
+  margin: 0px;
+}
+
+.wd-round-square-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.wd-avatar-image-2 {
+    width: 48px !important;
+    height: 48px;
+}
+
+.wd-whats-happening {
+    background-color: black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.wd-whats-happening-no-border {
+    background-color: black;
+    border: none;
+}
+
+.wd-whats-happening-text {
+    background-color: black;
+    color: gray;
+    padding: 5px;
+
+}
+
+.wd-suggested-body {
+  font-weight: bold;
+}
+
+.wd-tweet-body {
+    font-weight: normal;
+}
+
+.wd-tweet-img {
+    width: 100%;
+    max-height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wd-tweet-circle-img {
+    width : 150%;
+    border-radius: 25px;
+}
+
+.wd-suggested-author {
+  color: white;
+  font-size: 13px;
+}
+
+.wd-suggested-image {
+    float: right;
+    height: 100px;
+    width:100px;
+    margin-right: 16px;
+    vertical-align: top;
+    border-radius: 25px;
+}
+
+.wd-left-text {
+  float: left;
+  height: 100%
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-image {
+    width: 33%;
+    float: right;
+}
+
+.wd-grid-col-two-third-page {
+    width: 66%;
+    float: left;
+}
+
+.wd-grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+
+.wd-grid-col-full-page {
+    width: 50%;
+    float: left;
+}
+
+.wd-white-span span{
+    color: white
+}
+
+.wd-white-span p{
+    color: white
+}
+
+.wd-white-span i{
+    color: white
+}
+
+.wd-white-span li{
+    color: white
+}
+
+.wd-white {
+    color: white
+}
+
+.wd-tweet-button {
+    border-radius: 20px;
+    width: 100%;
+    min-width: 65px;
+}
+
+/*.list-group-item {*/
+/*    background-color: #2a2a2a;*/
+/*}*/
+
+/*.list-group-item.active {*/
+/*    background-color: #1DA1F2;*/
+/*    border-color: #1DA1F2;*/
+/*}*/
+
+/*.btn-primary {*/
+/*    background-color: #1DA1F2;*/
+/*    border-color: #1DA1F2;*/
+/*}*/
+
+/*.btn-primary:focus {*/
+/*    background-color: #1DA1F2;*/
+/*    border-color: #1DA1F2;*/
+/*}*/
+
+/*.btn-primary:hover{*/
+/*    background-color: #1DA1F2;*/
+/*    border-color: #1DA1F2;*/
+/*}*/
+
+/*.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {*/
+/*    color: white;*/
+/*    background-color: #1DA1F2;*/
+/*    border-color: #1DA1F2;*/
+/*}*/
+
+/*.nav-tabs {*/
+/*    border-bottom-color: #2a2a2a;*/
+/*}*/
+
+/*.nav-link {*/
+/*    color: white;*/
+/*}*/
+
