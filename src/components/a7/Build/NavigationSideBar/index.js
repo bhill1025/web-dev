@@ -5,13 +5,24 @@ const NavigationSidebar = (
         active = 'explore'
     }
 ) => {
+    let exploreActive = ''
+    let homeActive = ''
+    switch (active) {
+        case 'explore':
+            exploreActive = ' active'
+            break;
+        default:
+            homeActive = ' active'
+            break;
+    }
+
     return(
         <>
             <ul className="list-group mb-2 wd-white-span">
               <li className="list-group-item">
                 <i className="fab fa-twitter"></i>
               </li>
-              <a className="list-group-item active" href="../../a7/twitter">
+              <a className={"list-group-item" + homeActive} href="../../a7/twitter">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-home"></i> Home
                       </span>
@@ -19,7 +30,7 @@ const NavigationSidebar = (
                         <i className="fa fa-home"></i>
                       </span>
               </a>
-              <a className="list-group-item" href="../../a7/twitter/explore">
+              <a className={"list-group-item" + exploreActive} href="../../a7/twitter/explore">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-hashtag"></i> Explore
                       </span>
