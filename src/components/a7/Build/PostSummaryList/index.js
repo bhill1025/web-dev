@@ -6,7 +6,7 @@ const PostSummaryList = () => {
     return(
         <ul className="list-group mb-2">
             <div className="wd-main-image">
-                <img src="../images/starship.jpg" className="card-img-top" alt="..."/>
+                <img src="/images/starship.jpg" className="card-img-top" alt="..."/>
                 <h2 className="wd-caption">SpaceX's Starship</h2>
             </div>
             {

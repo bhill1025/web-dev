@@ -15,7 +15,9 @@ const WhatsHappening = () => {
                     <div className="col-1">
                         <img src="/images/me.jpg"
                              className="mt-2 wd-avatar-image-2 rounded-circle"
-                             style={{width: "100%"}}/>
+                             style={{width: "100%"}}
+                             alt={"..."}
+                        />
                     </div>
                     <div className="col-11">
                         <ul className="list-group">

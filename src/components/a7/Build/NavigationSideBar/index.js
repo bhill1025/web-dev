@@ -11,7 +11,7 @@ const NavigationSidebar = (
               <li className="list-group-item">
                 <i className="fab fa-twitter"></i>
               </li>
-              <a className="list-group-item" href="../../home.html">
+              <a className="list-group-item active" href="../../home.html">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-home"></i> Home
                       </span>
@@ -19,7 +19,7 @@ const NavigationSidebar = (
                         <i className="fa fa-home"></i>
                       </span>
               </a>
-              <a className="list-group-item active" href="../../explore/explore.html">
+              <a className="list-group-item" href="../../a7/twitter/explore">
                       <span className="d-none d-xl-block">
                         <i className="fa fa-hashtag"></i> Explore
                       </span>

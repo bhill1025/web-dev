@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSideBar";
 import WhatsHappeningList from "../WhatsHappeningList";
-import ExploreComponent from "../ExploreScreen/ExploreComponent";
 import WhatsHappening from "../WhatsHappening";
 import TweetList from "../TweetList";
 
@@ -15,7 +14,6 @@ const HomeScreen = () => {
                  style={{"position": "relative"}}>
                 <WhatsHappening/>
                 <TweetList/>
-                {/*<ExploreComponent/>*/}
             </div>
             <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
                 <WhatsHappeningList title="What's happening"/>

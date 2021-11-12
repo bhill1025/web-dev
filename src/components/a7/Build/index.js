@@ -16,7 +16,7 @@ const Build2 = () => {
     return(
         <div>
             <Provider store={store}>
-                <Route path={["/", "/a7/twitter/home"]}
+                <Route path={["/", "/a7/twitter"]}
                        exact={true} component={HomeScreen}/>
                 <Route path="/a7/twitter/explore"
                        exact={true} component={ExploreScreen}/>
