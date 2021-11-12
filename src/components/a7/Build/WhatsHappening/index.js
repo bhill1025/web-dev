@@ -32,10 +32,11 @@ const WhatsHappening = () => {
                             <li className="list-group-item wd-whats-happening-no-border">
                                 <div className="row">
                                     <div className="col-9">
-                                        <span><i className="fa fa-check-circle"></i>
-                                            <i className="fa fa-check-circle"></i>
-                                            <i className="fa fa-check-circle"></i>
-                                            <i className="fa fa-check-circle"></i>
+                                        <span className={"wd-blue-font"}>
+                                            <i className="far fa-image"></i>&nbsp;&nbsp;&nbsp;
+                                            <i className="far fa-chart-bar"></i>&nbsp;&nbsp;&nbsp;
+                                            <i className="far fa-smile"></i>&nbsp;&nbsp;&nbsp;
+                                            <i className="far fa-calendar"></i>
                                         </span>
                                     </div>
                                     <div className="col-3">

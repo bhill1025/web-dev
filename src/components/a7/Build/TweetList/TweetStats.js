@@ -9,10 +9,10 @@ const TweetStats = ({tweet}) => {
     return (
         <div className="row mt-2">
             <div className="col-3">
-                <i className="far fa-heart me-2"></i> {tweet.stats.comments}
+                <i className="far fa-comment me-2"></i> {tweet.stats.comments}
             </div>
             <div className="col-3">
-                <i className="far fa-heart me-2"></i> {tweet.stats.retweets}
+                <i className="fa fa-retweet me-2"></i> {tweet.stats.retweets}
             </div>
             <div className="col-3" onClick={likeClickHandler}>
                 {
@@ -24,7 +24,7 @@ const TweetStats = ({tweet}) => {
                 }
                 {tweet.stats.likes}
             </div>
-            <div className="col-3"><i className="far fa-heart me-2"></i></div>
+            <div className="col-3"><i className="far fa-share-square me-2"></i></div>
         </div>
         );
 }

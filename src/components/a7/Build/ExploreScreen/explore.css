@@ -157,7 +157,16 @@
     background-color: black;
     color: gray;
     padding: 5px;
+}
 
+.wd-whats-happening-text .wd-whats-happening-text:focus .wd-whats-happening-text textarea:focus {
+    background-color: black;
+    color: gray;
+    padding: 5px;
+}
+
+.wd-blue-font {
+    color: #2a9fd6;
 }
 
 .wd-suggested-body {
