@@ -1,7 +1,6 @@
 import './App.css';
 import './vendors/bootstrap/css/bootstrap.css';
 import './vendors/bootstrap/css/cyborg-bootstrap.min.css';
-import './vendors/fontawesome/css/all.css';
 
 import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a6/Practice";
