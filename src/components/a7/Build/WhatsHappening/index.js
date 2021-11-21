@@ -7,6 +7,7 @@ const WhatsHappening = () => {
         dispatch({type: 'create-tweet',
             tweet: whatsHappening
         });
+        setWhatsHappening('')
     }
     return(
         <ul className="list-group">

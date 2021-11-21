@@ -4,13 +4,15 @@ import './vendors/bootstrap/css/cyborg-bootstrap.min.css';
 
 import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a6/Practice";
-import Practice2 from "./components/a7/Practice"
+import Practice2 from "./components/a7/Practice";
+import Practice3 from "./components/a8/Practice";
 import Build from "./components/a6/Build";
 import Build2 from "./components/a7/Build";
 import {Link} from "react-router-dom";
 
 import {BrowserRouter, Route} from "react-router-dom";
 import React from "react";
+import Build3 from "./components/a8/Build";
 
 function App() {
   return (
@@ -22,8 +24,14 @@ function App() {
               <Route path={["/a6", "/a6/practice"]} exact={true}>
                   <Practice/>
               </Route>
-              <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
+              <Route path={["/a7", "/a7/practice"]} exact={true}>
                   <Practice2/>
+              </Route>
+              <Route path={["/", "/a8", "/a8/practice"]} exact={true}>
+                  <Practice3/>
+              </Route>
+              <Route path={["/a8/twitter/home"]} exact={true}>
+                  <Build3/>
               </Route>
               <Route path="/a7/twitter">
                   <Build2/>

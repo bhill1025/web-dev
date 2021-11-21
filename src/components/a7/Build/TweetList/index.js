@@ -7,7 +7,7 @@ const selectAllTweets = (state) => state.tweets;
 const TweetList = () => {
     const tweets = useSelector(selectAllTweets);
     return(
-        <ul className="list-group">
+        <ul className="list-group mb-2">
             {
                 tweets.map(tweet =>
                     <TweetListItem tweet={tweet}/>
