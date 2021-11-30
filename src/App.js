@@ -9,6 +9,8 @@ import Practice3 from "./components/a8/Practice";
 import Build from "./components/a6/Build";
 import Build2 from "./components/a7/Build";
 import {Link} from "react-router-dom";
+import A9 from "./a9";
+import Build4 from "./a9/Build/index"
 
 import {BrowserRouter, Route} from "react-router-dom";
 import React from "react";
@@ -18,6 +20,7 @@ function App() {
   return (
       <BrowserRouter>
           <div className="container">
+              <Link to={"/a9/practice"}></Link>
               <Route path="/a6/hello" exact={true}>
                   <HelloWorld/>
               </Route>
@@ -27,8 +30,14 @@ function App() {
               <Route path={["/a7", "/a7/practice"]} exact={true}>
                   <Practice2/>
               </Route>
-              <Route path={["/", "/a8", "/a8/practice"]} exact={true}>
+              <Route path={["/a8", "/a8/practice"]} exact={true}>
                   <Practice3/>
+              </Route>
+              <Route path={["/", "/a9", "/a9/practice"]} exact={true}>
+                  <A9/>
+              </Route>
+              <Route path={["/a9/twitter/home"]} exact={true}>
+                  <Build4/>
               </Route>
               <Route path={["/a8/twitter/home"]} exact={true}>
                   <Build3/>
