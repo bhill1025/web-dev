@@ -30,8 +30,8 @@ export const updateMovie = (movie) =>
             'content-type': 'application/json'
         }
     }).then(response => response.json());
-
-export default {
+let exp = {
     findAllMovies, deleteMovie, createMovie,
     findMovieById, updateMovie
-};
+}
+export default exp;
